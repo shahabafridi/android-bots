@@ -1,8 +1,7 @@
-#summary One-sentence summary of this page.
-
 = Screenshots =
 
 Some of the screenshots
 
 
-= Android Bots main =
+== Android Bots main ==
+http://android-bots.googlecode.com/svn/images/Main.png
