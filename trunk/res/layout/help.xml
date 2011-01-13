@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:textColor="@color/green" android:textSize="@dimen/point14" android:text="@string/strHelp" android:id="@+id/TextView_HelpTitle"></TextView>
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbars="vertical"><TextView android:layout_width="fill_parent" android:text="@string/strHelp" android:id="@+id/TextView_HelpText" android:scrollbars="vertical" android:scrollHorizontally="false" android:layout_height="fill_parent" android:textSize="@dimen/point10"></TextView></ScrollView>
+
+</LinearLayout>

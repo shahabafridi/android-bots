@@ -1,0 +1,1 @@
+Profile Bot manages your ringing type and volume. Even though your device does not have profiles like other mobile devices Profile Bot gives you this facility. Select a profile by clicking on it. Then you can select one or more locations for that profile. After adding locations Profile Bot will activate each profile according to the location.
