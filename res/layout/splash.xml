@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbars="vertical"><LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbars="vertical"><TextView android:layout_height="wrap_content" android:text="@string/strAndroidBots" android:textSize="@dimen/point14" android:textColor="@color/green" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" /><TableLayout android:id="@+id/TableLayout01" android:layout_gravity="center_vertical|center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageButton_ProfileBot" android:src="@drawable/iconprofilebot"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageButton_BatteryBot" android:src="@drawable/iconbatterybot"></ImageButton></TableRow><TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/iconalarmbot" android:id="@+id/ImageButton_AlarmBot"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageButton_Locator" android:src="@drawable/iconlocator"></ImageButton></TableRow></TableLayout><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal" android:text="@string/strStartBot" android:id="@+id/Button_SplashStart"></Button><Button android:layout_height="wrap_content" android:id="@+id/Button_SplashStop" android:text="@string/strSplashStop" android:layout_width="fill_parent" android:layout_gravity="center_horizontal"></Button></LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

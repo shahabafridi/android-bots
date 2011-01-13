@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+<TextView android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strLocator" android:textColor="@color/green" android:textSize="@dimen/point14"></TextView>
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:isScrollContainer="true" android:scrollbars="vertical"><LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent"><TextView android:id="@+id/TextView02" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/strLacationName"></TextView><EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/EditText_LocationName" android:singleLine="true" android:inputType="textPersonName"></EditText><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/strStartSearch" android:id="@+id/Button_StartSearch" ></Button><Button android:layout_height="wrap_content" android:id="@+id/Button_StopSearch" android:text="@string/strStopSearch" android:layout_width="fill_parent" ></Button><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strStatus" android:id="@+id/TextView_Status"></TextView></LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+</LinearLayout>

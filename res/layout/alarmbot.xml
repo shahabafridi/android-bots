@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbars="vertical">
+<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/strAlarmBot" android:textColor="@color/green" android:textSize="@dimen/point14" android:layout_gravity="center_horizontal"></TextView><Button android:layout_height="wrap_content" android:text="@string/strAddAlarm" android:layout_width="fill_parent" android:id="@+id/Button_AlarmBotAddAlarm"></Button><Button android:text="@string/strRemoveAlarm" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/Button_AlarmBotRemoveAlarm"></Button><ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbars="vertical"><LinearLayout android:id="@+id/LinearLayout01" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_gravity="fill_vertical" android:orientation="vertical" android:layout_height="fill_parent"><ListView android:id="@+id/ListView_Alarms" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbars="vertical">
+</ListView></LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+</LinearLayout>

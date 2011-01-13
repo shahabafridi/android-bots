@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="arrProfiles"><item>Home</item>
+<item>Indoor</item>
+<item>Outdoor</item>
+<item>Silent</item>
+<item>Vibrate</item>
+</string-array>
+<string-array name="arrBatteryLevels"><item>High</item>
+<item>Medium</item>
+<item>Low</item>
+</string-array>
+</resources>

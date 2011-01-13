@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnSplashProfileBot">btnSplashProfileBot</string>
+    <string name="btnLocatorStop">btnLocatorStop</string>
+    <string name="strStatus">Status</string>
+    <string name="strStopSearch">Stop Scan</string>
+    <string name="strStartSearch">Scan</string>
+    <string name="strLacationName">Location Name</string>
+    <string name="hello">Hello World, Splash!</string>
+    <string name="app_name">Bots</string>
+<string name="strAndroidBots">Android Bots</string>
+<string name="strLocator">Locator</string>
+<string name="strProfileBot">Profile Bot</string>
+<string name="strSample">සාම්පල්</string>
+<string name="btnSplashLocator">btnSplashLocator</string>
+
+<string name="btnLocatorStart">btnLocatorStart</string>
+<string name="btnSplashAlarmBot">btnSplashAlarmBot</string>
+<string name="strLocations">Locations</string>
+<string name="strStartBot">Start Bots !!!</string>
+<string name="btnSplashStart">btnSplashStart</string>
+<string name="btnSplashStop">btnSplashStop</string>
+<string name="strSplashStop">Stop Bots :(</string>
+<string name="strAlarmBot">Alarm Bot</string>
+<string name="strAddAlarm">Add Alarm</string>
+<string name="strRemoveAlarm">Remove Alarm</string>
+<string name="strBatteryBot">Battery Bot</string>
+<string name="strScreenBrightness">Screen Brightness</string>
+<string name="strScreenTimeout">Screen Timeout</string>
+<string name="strWifi">Wifi</string>
+<string name="strBluetooth">Bluetooth</string>
+<string name="strGPS">GPS</string>
+<string name="strNetwork">2G only</string>
+<string name="strDataSynchronization">Data Synchronization</string>
+<string name="strBatteryLevel">Battery Level</string>
+<string name="strStopAlarm">Stop Alarm</string>
+<string name="strHelp">Help</string>
+</resources>

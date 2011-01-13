@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="@color/green" android:textSize="@dimen/point14" android:text="@string/strBatteryBot"></TextView><TextView android:id="@+id/TextView04" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/strBatteryLevel"></TextView><Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/Spinner_BatteryLevel"></Spinner><ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scrollbars="vertical"><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"><TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/strScreenBrightness"></TextView><SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="255" android:id="@+id/SeekBar_ScreenBrightness"></SeekBar><TextView android:id="@+id/TextView03" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/strScreenTimeout"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="numberSigned" android:id="@+id/EditText_ScreenTimeout" android:text="0"></EditText>
+<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strWifi" android:id="@+id/CheckBox_Wifi"></CheckBox>
+<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strBluetooth" android:id="@+id/CheckBox_Bluetooth"></CheckBox>
+<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strDataSynchronization" android:id="@+id/CheckBox_DataSync"></CheckBox><CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strGPS" android:id="@+id/CheckBox_GPS" android:enabled="false"></CheckBox><CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/strNetwork" android:id="@+id/CheckBox_TwoG" android:enabled="false"></CheckBox>
+</LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
